@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    height: 200vh;
+    margin-top: 10vh;
+    flex-direction: row;
+    margin-left: 11vh;
+  }
+
+  .left-half {
+    flex: 1;
+    margin-left: 120px;
+    border-right: 2px solid silver ;
+    box-sizing: border-box;
+
+  }
+
+  .right-half {
+    flex: 1;
+    box-sizing: border-box;
+
+
+  }
+  .host{
+    display:flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .line{
+    width:80rem;
+    height:0.01rem;
+    margin-top: 1rem;
+    margin-left:5rem;
+    background-color:rgb(255, 255, 255);
+}
